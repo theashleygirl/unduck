@@ -17027,15 +17027,6 @@ export const bangs = [
     u: "https://hub.helm.sh/charts?q={{{s}}}",
   },
   {
-    c: "Research",
-    d: "www.duckduckgo.com",
-    r: 3580,
-    s: "Duck.ai",
-    sc: "Reference",
-    t: "chat",
-    u: "https://www.duckduckgo.com/?q={{{s}}}&ia=chat&bang=true ",
-  },
-  {
     c: "Shopping",
     d: "chatters.ca",
     r: 0,
