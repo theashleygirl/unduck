@@ -44,9 +44,10 @@ function noSearchDefaultPageRender() {
   });
 }
 
-const DEFAULT_BANG = "gh"; // GitHub
+const LS_DEFAULT_BANG = localStorage.getItem("default-bang") ?? "ddg";
 const defaultBang =
-  bangs.find((b) => b.t === DEFAULT_BANG) ?? bangs.find((b) => b.t === "g");
+  bangs.find((b) => b.t === LS_DEFAULT_BANG) ??
+  bangs.find((b) => b.t === "ddg");
 
 function getBangredirectUrl() {
   const url = new URL(window.location.href);
