@@ -21,7 +21,7 @@ export const bangs = [
   },
   {
     c: "Tech",
-    d: "npmx",
+    d: "npmx.dev",
     r: 147,
     s: "npmx",
     sc: "Programming",
