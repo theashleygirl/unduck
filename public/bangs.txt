@@ -81,7 +81,7 @@ twitch	twitch.tv	https://twitch.tv/{{{s}}}
 li	www.linkedin.com	https://www.linkedin.com/search/results/all/?keywords={{{s}}}
 wayback	web.archive.org	https://web.archive.org/web/*/{{{s}}}
 arch	wiki.archlinux.org	https://wiki.archlinux.org/index.php?title=Special%3ASearch&search={{{s}}}&go=Go
-ddg	duckduckgo.com	http://duckduckgo.com/?q={{{s}}}
+ddg	duckduckgo.com	https://duckduckgo.com/?q={{{s}}}
 rt	www.rottentomatoes.com	https://www.rottentomatoes.com/search/?search={{{s}}}
 gmap	maps.google.com	http://maps.google.com/maps?q={{{s}}}
 auk	www.amazon.co.uk	https://www.amazon.co.uk/s?k={{{s}}}
